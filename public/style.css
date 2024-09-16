@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #6e7ffc, #8ab9ff);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+  font-weight: 600;
+}
+
+.form-container {
+  width: 320px;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #6e7ffc;
+  outline: none;
+  box-shadow: 0 0 5px rgba(110, 127, 252, 0.3);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #6e7ffc;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #5761d8;
+}
+
+.submit-btn:active {
+  background-color: #4955b0;
+  transform: scale(0.98);
+}
+
+.form-footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+.form-footer a {
+  color: #6e7ffc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-footer a:hover {
+  text-decoration: underline;
+}
